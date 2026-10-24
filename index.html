@@ -87,16 +87,8 @@
       <div class="meta"><div class="t">Lover</div><div class="a">Taylor Swift</div></div>
       <button class="heart" id="like" type="button" aria-label="Me gusta"><svg viewBox="0 0 24 24"><path d="M12 21s-8.5-5.4-8.5-11.2C3.5 6.6 5.8 4.5 8.4 4.5c1.6 0 2.9.8 3.6 2 .7-1.2 2-2 3.6-2 2.6 0 4.9 2.1 4.9 5.3C20.5 15.6 12 21 12 21z"/></svg></button>
     </div>
-    <div class="bar" id="bar"><i id="prog"></i></div>
-    <div class="times"><span id="tcur">0:00</span><span id="tdur">3:41</span></div>
-    <div class="ctrl">
-      <button class="sk" id="prev" type="button" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="M6 5h2v14H6zM20 5v14L9.5 12z"/></svg></button>
-      <button class="pp" id="pp" type="button" aria-label="Pausar o reproducir">
-        <svg class="ic-pause" viewBox="0 0 24 24"><path d="M6 4h4.2v16H6zM13.8 4H18v16h-4.2z"/></svg>
-        <svg class="ic-play" viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg>
-      </button>
-      <button class="sk" id="next" type="button" aria-label="Siguiente"><svg viewBox="0 0 24 24"><path d="M16 5h2v14h-2zM4 5l10.5 7L4 19z"/></svg></button>
-    </div>
+    <p class="hint2">Toca ▶ para escuchar</p>
+    <div class="spwrap"><div id="sp"></div></div>
     <a class="splink" id="splink" hidden target="_blank" rel="noopener" href="https://open.spotify.com/track/1dGr1c8CrMLDpV6mPbImSI">Escuchar en Spotify ›</a>
   </div>
 </section>
@@ -189,7 +181,6 @@
 
 </main>
 
-<div aria-hidden="true" style="position:fixed;left:-9999px;top:0;width:300px;height:80px;pointer-events:none"><div id="sp"></div></div>
 
 <script src="js/main.js"></script>
 </body>
