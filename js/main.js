@@ -33,8 +33,8 @@
      Para cambiar la canción: pega aquí el link de YouTube de la canción (cualquier formato:
      youtube.com/watch?v=..., youtu.be/..., music.youtube.com/...). Si el primer video no deja
      incrustarse, se prueba automáticamente con los de BACKUP.                                  */
-  var MUSIC_URL = 'https://www.youtube.com/watch?v=GPx4YTsZz_w';
-  var BACKUP    = ['https://www.youtube.com/watch?v=-BjZmE2gtdo'];
+  var MUSIC_URL = 'https://youtu.be/P61FN0qUmE0?si=HIONMIbkhDhIkduU';
+  var BACKUP    = ['https://youtu.be/qSE7kUEDXrk?si=9Ss250UCiWduaXGz'];
 
   var pp = document.getElementById('pp'), mbtn = document.getElementById('mbtn');
   var prog = document.getElementById('prog'), tcur = document.getElementById('tcur'), tdur = document.getElementById('tdur'), bar = document.getElementById('bar');
